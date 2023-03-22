@@ -18,3 +18,4 @@ jobs:
       with:
         node-version: '12.x'
     - run: npx insomnia-documenter --config insomnia.json
+    - run: npx run
